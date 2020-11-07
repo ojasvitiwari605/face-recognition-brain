@@ -12,7 +12,7 @@ import './App.css';
 
 //You must add your own API key here from Clarifai.
 const app = new Clarifai.App({
- apiKey: 'YOUR API KEY HERE'
+ apiKey: '3366d614b6ef443bb145c4e5054c13fb'
 });
 
 const particlesOptions = {
@@ -34,7 +34,7 @@ class App extends Component {
       input: '',
       imageUrl: '',
       box: {},
-      route: 'signin',
+      route: 'home',
       isSignedIn: false,
       user: {
         id: '',
